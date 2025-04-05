@@ -233,6 +233,7 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
   </tr>
   <tr>
     <td>Metlife INC ($\tau=0.5$)</td>
+            <td>2.64</td>        
             <td>1.78</td>
             <td>0.36</td>
             <td>703.96</td>
