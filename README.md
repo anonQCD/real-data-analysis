@@ -1,6 +1,6 @@
 # QCD real data analysis
 
-This document includes real data analysis of QCD algorithm. 
+This document includes real data analysis results of QCD algorithm. 
 
 ## Data description
 
@@ -405,7 +405,7 @@ Table 4. Runtime and minimum BIC when using hedge funds (Shepherd Investments In
 </table>
 
 
-In Table 1 to 4, we report the runtime and minimum BIC scores of pathwise penalized quantile regressions for 12 different firms. We find that QCD provides more than $7$ times speed up over LP or QICD, while retaining similar BIC score as the other two. The code and data sets are available in the same link to ensure reproducibility.
+In Table 1 to 4, we report the runtime and minimum BIC scores of pathwise penalized quantile regressions for 12 different firms. We find that QCD provides more than 7 times speed up over LP or QICD, while retaining similar BIC score as the other two. The code and data sets are available in the data folder in this repository to ensure reproducibility.
 
 
 ## References
