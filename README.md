@@ -2,10 +2,6 @@
 
 This document includes real data analysis results of QCD algorithm. 
 
-## Data description
-
-We illustrate the runtime improvement of QCD over QICD and LP on a financial time series data set. It consists of monthly stock returns (Sep'05-Aug'08, 36 months) of $100$ large US firms including banks, broker-dealers, insurance firms and hedge funds. The goal is to regress each firm's return on the present and past returns of other firms ($p = 2*99 = 198, n = 36-1 = 35$), and select important firm-firm connections to build financial networks that can shed insight on the systemic risk of the market. This data set, introduced in Billio et al (2012), was used in Basu et al (2024), Karpman et al (2018), and is a key motivation behind developing our fast quantile regression algorithm.
-
 ## Result
 
 Table 1. Runtime and minimum BIC when using banks (Bank of America, American Express, and Citi) as dependent variable respectively.
@@ -404,20 +400,6 @@ Table 4. Runtime and minimum BIC when using hedge funds (Shepherd Investments In
     <td>706.17</td>
   </tr>
 </table>
-
-
-In Table 1 to 4, we report the runtime and minimum BIC scores of pathwise penalized quantile regressions for 12 different firms. We find that QCD provides more than 7 times speed up over LP or QICD, while retaining similar BIC score as the other two. The code and data sets are available in the code and data folder in this repository to ensure reproducibility.
-
-
-## References
-
-[1] Basu, Sumanta, et al. ``A high-dimensional approach to measure connectivity in the financial sector.'' The Annals of Applied Statistics 18.2 (2024): 922-945.
-
-[2] Billio, Monica, et al. ``Econometric measures of connectedness and systemic risk in the finance and insurance sectors.'' Journal of financial economics 104.3 (2012): 535-559.
-
-[3] Karpman, Kara, et al. ``Exploring Financial Networks Using Quantile Regression and Granger Causality.'' arXiv preprint arXiv:2207.10705 (2022).
-
-
 
 
 
