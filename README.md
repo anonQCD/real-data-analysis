@@ -1,9 +1,5 @@
 # QCD real data analysis
 
-This document includes real data analysis results of QCD algorithm. 
-
-## Result
-
 Table 1. Runtime and minimum BIC when using banks (Bank of America, American Express, and Citi) as dependent variable respectively.
 <table>
   <tr>
