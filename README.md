@@ -398,6 +398,11 @@ Table 4. Runtime and minimum BIC when using hedge funds (Shepherd Investments In
 </table>
 
 
+<img width="545" alt="bicscore" src="https://github.com/user-attachments/assets/153682ae-2ab2-4d5f-b537-3de45bd39576" />
+
+Figure 1. BIC curve of QCD, QICD, and LP when Bank of America was the dependent variable and $\tau=0.3$.
+
+
 
 
 
