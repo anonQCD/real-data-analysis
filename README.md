@@ -216,15 +216,6 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
   </tr>
  <tr>
     <td>Metlife INC ($\tau=0.3$)</td>
-            <td>2.54</td>
-            <td>1.50</td>
-            <td>0.37</td>
-            <td>703.96</td>
-            <td>706.30</td>
-            <td>704.26</td>
-  </tr>
-  <tr>
-    <td>Metlife INC ($\tau=0.5$)</td>
             <td>2.64</td>        
             <td>1.78</td>
             <td>0.36</td>
@@ -233,7 +224,7 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.40</td>
   </tr>
   <tr>
-    <td>Metlife INC ($\tau=0.7$)</td>
+    <td>Metlife INC ($\tau=0.5$)</td>
             <td>2.56</td>
             <td>1.68</td>
             <td>0.40</td>
@@ -242,7 +233,7 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.40</td>
   </tr>
   <tr>
-    <td>Aetna INC NEW ($\tau=0.3$)</td>
+    <td>Metlife INC ($\tau=0.7$)</td>
             <td>2.55</td>
             <td>1.68</td>
             <td>0.40</td>
@@ -251,7 +242,7 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.40</td>
   </tr>
   <tr>
-    <td>Aetna INC NEW ($\tau=0.5$)</td>
+    <td>Aetna INC NEW ($\tau=0.3$)</td>
             <td>2.53</td>
             <td>2.19</td>
             <td>0.40</td>
@@ -260,8 +251,8 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.91</td>
   </tr>
   <tr>
-    <td>Aetna INC NEW ($\tau=0.7$)</td>
-           <td>2.59</td>
+    <td>Aetna INC NEW ($\tau=0.5$)</td>
+            <td>2.59</td>
             <td>1.52</td>
             <td>0.38</td>
             <td>703.96</td>
@@ -269,8 +260,8 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.91</td>
   </tr>
   <tr>
-    <td>Progressive CORP OH ($\tau=0.3$)</td>
-            <td>2.54</td>
+    <td>Aetna INC NEW ($\tau=0.7$)</td>
+           <td>2.54</td>
             <td>1.52</td>
             <td>0.42</td>
             <td>703.96</td>
@@ -278,7 +269,7 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.91</td>
   </tr>
   <tr>
-    <td>Progressive CORP OH ($\tau=0.5$)</td>
+    <td>Progressive CORP OH ($\tau=0.3$)</td>
             <td>2.66</td>
             <td>1.60</td>
             <td>0.35</td>
@@ -287,12 +278,21 @@ Table 3. Runtime and minimum BIC when using insurance firms (Metlife INC, Aetna 
             <td>704.49</td>
   </tr>
   <tr>
-    <td>Progressive CORP OH ($\tau=0.7$)</td>
+    <td>Progressive CORP OH ($\tau=0.5$)</td>
             <td>2.47</td>
             <td>2.03</td>
             <td>0.33</td>
             <td>703.96</td>
             <td>709.11</td>
+            <td>704.49</td>
+  </tr>
+  <tr>
+    <td>Progressive CORP OH ($\tau=0.7$)</td>
+            <td>2.51</td>
+            <td>1.62</td>
+            <td>0.34</td>
+            <td>703.96</td>
+            <td>709.09</td>
             <td>704.49</td>
   </tr>
 </table>
