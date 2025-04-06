@@ -336,7 +336,7 @@ Table 4. Runtime and minimum BIC when using hedge funds (Shepherd Investments In
     <td>Shepherd Investments International Ltd ($\tau=0.7$)</td>
     <td>2.55</td>
     <td>1.63</td>
-    <td>0.34</td>
+    <td>0.35</td>
     <td>703.96</td>
     <td>706.52</td>
     <td>704.44</td>
@@ -361,9 +361,9 @@ Table 4. Runtime and minimum BIC when using hedge funds (Shepherd Investments In
   </tr>
   <tr>
     <td>York Investment Ltd ($\tau=0.7$)</td>
-    <td>2.64</td>
+    <td>2.74</td>
     <td>1.48</td>
-    <td>0.32</td>
+    <td>0.31</td>
     <td>703.96</td>
     <td>707.07</td>
     <td>704.34</td>
@@ -371,7 +371,7 @@ Table 4. Runtime and minimum BIC when using hedge funds (Shepherd Investments In
   <tr>
     <td>Fairfield Sentry A ($\tau=0.3$)</td>
     <td>2.66</td>
-    <td>2.01</td>
+    <td>2.04</td>
     <td>0.36</td>
     <td>703.96</td>
     <td>714.87</td>
